@@ -34,3 +34,19 @@ switch (true) {
     default:
         console.log("F");
 }
+// Which do you prefer? Why?
+// The if/else-if/else statement is more straightforward for checking ranges, but the switch statement can be cleaner for specific values.
+
+// Write a for loop that prints all values from 1 to 100
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
+// Modify your for loop to make it output an exclamation point for all odd numbers instead of the number.
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 !== 0) {
+        console.log("!");
+    } else {
+        console.log(i);
+    }
+}
